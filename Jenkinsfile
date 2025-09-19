@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Stage 1: Building the code using Maven...'
+                echo 'Stage 1: Building the code using Maven....'
                 echo 'Tool used: Maven'
             }
         }
@@ -52,3 +52,4 @@ pipeline {
         }
     }
 }
+
